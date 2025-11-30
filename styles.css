@@ -1,0 +1,126 @@
+body {
+  background-image: url('https://static.vecteezy.com/system/resources/thumbnails/006/596/933/small/abstract-dark-red-background-dark-lines-glow-waves-flicker-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 20px;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Login Page Styles */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-box {
+  background-color: rgba(255, 255, 255, 0.95);
+  border: 2px solid #ff0000;
+  border-radius: 8px;
+  padding: 40px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.login-box h1 {
+  color: #ff0000;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: none;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  color: #000;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #ff0000;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 12px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login-btn:hover {
+  background: #cc0000;
+}
+
+.hint {
+  text-align: center;
+  color: #666;
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+/* Portfolio Page Styles */
+.portfolio-page {
+  display: none;
+}
+
+.logout-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  background: #ff0000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.logout-btn:hover {
+  background: #cc0000;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+p {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+}
+
+.hidden {
+  display: none !important;
+}
